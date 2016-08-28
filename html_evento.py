@@ -3,10 +3,15 @@ import requests
 import re
 
 facultades=['administracion', 'facartes', 'derecho', 'economia', 'ingenieria', 'medicina', 'egob', 'cider']
+departamentos=['ceper', 'antropologia', 'arquitectura', 'arte', 'c-politica', 'cienciasbiologicas', 'design', 'filosofia', 'fisica', 'geociencias', 'historia', 'literatura', 'ingbiomedica', 'civil', 'electrica', 'industrial', 'mecanica', 'ingquimica', 'sistemas', 'lenguas', 'matematicas', 'musica', 'psicologia', 'quimicapr']
 
-for facultad in facultades:
-	url='https://'+facultad+".uniandes.edu.co"
-	r=requests.get(url)
+for facultad in departamentos:
+	url='http://'+facultad+".uniandes.edu.co"
+	try:
+		r=requests.get(url)
+	except:
+		print("No pudo abrir: "+facultad)
+		continue
 	soup=BeautifulSoup(r.content, "lxml")
 
 	anclas=soup.body.find_all("a", href=re.compile('(evento|Evento)'))
