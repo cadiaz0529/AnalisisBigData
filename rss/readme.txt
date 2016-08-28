@@ -1,0 +1,1 @@
+En esta carpeta se suben los scripts relativos al ejercicio del RSS
