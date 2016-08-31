@@ -1,0 +1,317 @@
+<?xml version="1.1" encoding="UTF-16"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+   <id>http://www.bbc.com/mundo/temas/economia/index.xml</id>
+   <title>BBCMundo.com | Economía</title>
+   <updated>2016-06-06T20:24:30+00:00</updated>
+   <link rel="self" href="http://www.bbc.com/mundo/temas/economia/index.xml"/>
+   <author>
+      <name>BBC Mundo</name>
+      <email>escribanos@bbc.co.uk</email>
+      <uri>http://www.bbcmundo.com</uri>
+   </author>
+   <generator>http://www.bbcmundo.com</generator>
+   <category xml:lang="es" term="mundo" label="mundo"/>
+   <category xml:lang="es" term="temas" label="Temas"/>
+   <logo>http://www.bbc.co.uk/mundo/images/gel/rss_logo.gif</logo>
+   <rights>Derechos Reservados de la British Broadcasting Corporation (Corporación Británica de Radiodifusión) </rights>
+   <entry>
+      <id>tag:www.bbcmundo.com,2016-05-31:/mundo/noticias/2016/06/160531_economia_potencial_economico_avistamiento_aves_lf</id>
+      <dc:identifier>/mundo/noticias/2016/06/160531_economia_potencial_economico_avistamiento_aves_lf</dc:identifier>
+      <updated>2016-06-06T19:47:10+00:00</updated>
+      <published>2016-05-31T21:27:23+00:00</published>
+      <category xml:lang="es" term="mundo" label="mundo"/>
+      <category xml:lang="es" term="news" label="Noticias"/>
+      <title xml:lang="es">El sorprendente potencial económico de la industria del avistamiento de aves</title>
+      <summary xml:lang="es">Parece un hobby excéntrico, pero mueve miles de millones de dólares en todo el mundo. Los países latinoamericanos, con la mayor biodiversidad del mundo, están particularmente bien ubicados para ello.</summary>
+      <link rel="alternate" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/06/160531_economia_potencial_economico_avistamiento_aves_lf" title="story">
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcmundo.com,2016-06-02:/mundo/america_latina/2016/06/160602_economia_venta_armamentos_america_latina_lf</id>
+      <dc:identifier>/mundo/america_latina/2016/06/160602_economia_venta_armamentos_america_latina_lf</dc:identifier>
+      <updated>2016-06-06T14:41:10+00:00</updated>
+      <published>2016-06-02T16:19:27+00:00</published>
+      <category xml:lang="es" term="mundo" label="mundo"/>
+      <category xml:lang="es" term="latinamerica" label="América Latina"/>
+      <title xml:lang="es">¿Cuáles son los países latinoamericanos que más armas exportan?</title>
+      <summary xml:lang="es">En el enorme negocio mundial de las armas, Brasil es el primer país latinoamericano con mayor participación de mercado. Pero no es el único interesado en lograrlo.</summary>
+      <link rel="alternate" type="text/html" href="http://www.bbc.com/mundo/america_latina/2016/06/160602_economia_venta_armamentos_america_latina_lf" title="story">
+         <media:content/>
+      </link>
+      <link rel="related" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/03/160306_armas_venta_exportadores_importadores_guerras_conflictos_mr" title="story">
+         <dc:title>Los países que más venden armas en un mundo sacudido por los conflictos</dc:title>
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcmundo.com,2016-06-03:/mundo/noticias/2016/06/160603_tomas_sedlacek_economia_del_bien_y_el_mal_finde_dv</id>
+      <dc:identifier>/mundo/noticias/2016/06/160603_tomas_sedlacek_economia_del_bien_y_el_mal_finde_dv</dc:identifier>
+      <updated>2016-06-05T09:55:53+00:00</updated>
+      <published>2016-06-03T10:06:48+00:00</published>
+      <category xml:lang="es" term="mundo" label="mundo"/>
+      <category xml:lang="es" term="news" label="Noticias"/>
+      <title xml:lang="es">Tomas  Sedlacek, el economista del bien y el mal que recomienda no olvidar las 7 vacas gordas ni las flacas</title>
+      <summary xml:lang="es">Para el economista checo, el sueño del faraón y José en la Biblia es el primer pronóstico macroeconómico. Con las palabras de David Bowie, Oscar Wilde y Brad Pitt explica su visión de una economía con rostro humano.</summary>
+      <link rel="alternate" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/06/160603_tomas_sedlacek_economia_del_bien_y_el_mal_finde_dv" title="story">
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcmundo.com,2016-05-30:/mundo/noticias/2016/06/160530_polonia_adolescente_contabando_computadoras_empresario_exito_all</id>
+      <dc:identifier>/mundo/noticias/2016/06/160530_polonia_adolescente_contabando_computadoras_empresario_exito_all</dc:identifier>
+      <updated>2016-06-04T13:40:16+00:00</updated>
+      <published>2016-05-30T23:17:07+00:00</published>
+      <category xml:lang="es" term="mundo" label="mundo"/>
+      <category xml:lang="es" term="news" label="Noticias"/>
+      <title xml:lang="es">El adolescente que burlaba la Cortina de Hierro para contrabandear computadoras </title>
+      <summary xml:lang="es">Todo empezó como una oportunidad de negocio para Tomasz Czechowicz que a los 18 años comenzó a introducir computadoras de contrabando a través de la Cortina de Hierro. Hoy es un empresario exitosos y rico en Polonia.  </summary>
+      <link rel="alternate" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/06/160530_polonia_adolescente_contabando_computadoras_empresario_exito_all" title="story">
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcmundo.com,2016-06-03:/mundo/noticias/2016/06/160603_economia_cinco_cifras_elecciones_peru_mj</id>
+      <dc:identifier>/mundo/noticias/2016/06/160603_economia_cinco_cifras_elecciones_peru_mj</dc:identifier>
+      <updated>2016-06-04T13:29:28+00:00</updated>
+      <published>2016-06-03T12:51:58+00:00</published>
+      <category xml:lang="es" term="mundo" label="mundo"/>
+      <category xml:lang="es" term="news" label="Noticias"/>
+      <title xml:lang="es">5 cifras que explican el complejo momento económico que está viviendo Perú</title>
+      <summary xml:lang="es">La economía peruana muestra señales contradictorias de bonanza y pobreza. Cinco datos que ofrecen pistas acerca de los retos que enfrentará el próximo mandatario.</summary>
+      <link rel="alternate" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/06/160603_economia_cinco_cifras_elecciones_peru_mj" title="story">
+         <media:content/>
+      </link>
+      <link rel="related" type="text/html" href="http://www.bbc.com/mundo/internacional/2016/06/160603_diferencias_semejanzas_keiko_alberto_fujimori_db" title="story">
+         <dc:title>Tres diferencias y tres semejanzas de Keiko Fujimori con su padre, el expresidente de Perú Alberto Fujimori</dc:title>
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcmundo.com,2016-06-03:/mundo/america_latina/2016/06/160603_venezuela_alimentos_clap_yv</id>
+      <dc:identifier>/mundo/america_latina/2016/06/160603_venezuela_alimentos_clap_yv</dc:identifier>
+      <updated>2016-06-03T21:31:34+00:00</updated>
+      <published>2016-06-03T17:19:08+00:00</published>
+      <category xml:lang="es" term="mundo" label="mundo"/>
+      <category xml:lang="es" term="latinamerica" label="América Latina"/>
+      <title xml:lang="es">Qué son los polémicos CLAP, el sistema paralelo de distribución de alimentos del gobierno de Venezuela</title>
+      <summary xml:lang="es">Fueron creados por el presidente Nicolás Maduro para hacer llegar bolsas de alimentos a las familias sin pasar por la cola del supermercado ni por el mercado negro. ¿Cómo funcionan?</summary>
+      <link rel="alternate" type="text/html" href="http://www.bbc.com/mundo/america_latina/2016/06/160603_venezuela_alimentos_clap_yv" title="story">
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcmundo.com,2016-06-02:/mundo/noticias/2016/06/160602_economia_elizabeth_holmes_multimillonaria_forbes_bm</id>
+      <dc:identifier>/mundo/noticias/2016/06/160602_economia_elizabeth_holmes_multimillonaria_forbes_bm</dc:identifier>
+      <updated>2016-06-02T23:43:48+00:00</updated>
+      <published>2016-06-02T20:12:14+00:00</published>
+      <category xml:lang="es" term="mundo" label="mundo"/>
+      <category xml:lang="es" term="news" label="Noticias"/>
+      <title xml:lang="es">De US$4.500 millones a nada: cómo la estrella de Silicon Valley Elizabeth Holmes perdió su fortuna</title>
+      <summary xml:lang="es">La revista Forbes estimó que Elizabeth Holmes, la otrora número uno del ranking de las mujeres "hechas a sí mismas" más ricas, tiene un capital que "no vale nada". Sin embargo, su empresa señala que son especulaciones.</summary>
+      <link rel="alternate" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/06/160602_economia_elizabeth_holmes_multimillonaria_forbes_bm" title="story">
+         <media:content/>
+      </link>
+      <link rel="related" type="text/html" href="http://www.bbc.com/mundo/noticias/2014/08/140815_economia_millonaria_aplicaciones_salud_ms" title="story">
+         <dc:title>La joven multimillonaria que quiere revolucionar la medicina</dc:title>
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcmundo.com,2016-05-26:/mundo/especial/vert_cap/2016/06/160526_vert_ecomomia_como_no_vestirse_para_entrevista_yv</id>
+      <dc:identifier>/mundo/especial/vert_cap/2016/06/160526_vert_ecomomia_como_no_vestirse_para_entrevista_yv</dc:identifier>
+      <updated>2016-06-02T00:33:19+00:00</updated>
+      <published>2016-05-26T13:15:59+00:00</published>
+      <category xml:lang="es" term="mundo" label="mundo"/>
+      <category xml:lang="es" term="verticals_capital" label="Dinero y Negocios"/>
+      <title xml:lang="es">Cómo NO vestirse para una entrevista de trabajo</title>
+      <summary xml:lang="es">En tiempos en que los grandes empresarios se visten de jean y camiseta gris (piensa en Mark Zuckerberg), ¿qué debemos ponernos para buscar empleo? Una pregunta difícil pero no imposible de responder.</summary>
+      <link rel="alternate" type="text/html" href="http://www.bbc.com/mundo/especial/vert_cap/2016/06/160526_vert_ecomomia_como_no_vestirse_para_entrevista_yv" title="story">
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcmundo.com,2016-05-31:/mundo/noticias/2016/06/160531_tecnologia_ciencia_medio_ambiente_turbina_eolica_energia_limpia_india_arun_george_avant_garde_innovations_lb</id>
+      <dc:identifier>/mundo/noticias/2016/06/160531_tecnologia_ciencia_medio_ambiente_turbina_eolica_energia_limpia_india_arun_george_avant_garde_innovations_lb</dc:identifier>
+      <updated>2016-06-01T16:46:59+00:00</updated>
+      <published>2016-05-31T14:15:51+00:00</published>
+      <category xml:lang="es" term="mundo" label="mundo"/>
+      <category xml:lang="es" term="news" label="Noticias"/>
+      <title xml:lang="es">La turbina eólica del tamaño de un ventilador que puede producir energía durante 20 años</title>
+      <summary xml:lang="es">Hay una iglesia en India que, desde hace meses, tiene un aspecto peculiar: junto a su torre hay un gran ventilador que es, en realidad, una turbina eólica. BBC Mundo habló con el creador de este proyecto de energía renovable.</summary>
+      <link rel="alternate" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/06/160531_tecnologia_ciencia_medio_ambiente_turbina_eolica_energia_limpia_india_arun_george_avant_garde_innovations_lb" title="story">
+         <media:content/>
+      </link>
+      <link rel="related" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/05/160525_india_taj_majal_verde_contaminacion_insectos_ab" title="story">
+         <dc:title>Por qué el Taj Mahal se está poniendo verde</dc:title>
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcmundo.com,2016-05-28:/mundo/noticias/2016/06/160528_modelos_kate_moss_sobrevivir_estilo_pagos_tarifas_moda_amv</id>
+      <dc:identifier>/mundo/noticias/2016/06/160528_modelos_kate_moss_sobrevivir_estilo_pagos_tarifas_moda_amv</dc:identifier>
+      <updated>2016-06-01T15:59:47+00:00</updated>
+      <published>2016-05-28T14:25:44+00:00</published>
+      <category xml:lang="es" term="mundo" label="mundo"/>
+      <category xml:lang="es" term="news" label="Noticias"/>
+      <title xml:lang="es">Las dificultades de sobrevivir en la industria del modelaje</title>
+      <summary xml:lang="es">El mundo del modelaje en Reino Unido está en crisis, lo que ha puesto en evidencia las difíciles condiciones que deben afrontar decenas de jóvenes que desean ingresar al lucrativo mundo de la moda. </summary>
+      <link rel="alternate" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/06/160528_modelos_kate_moss_sobrevivir_estilo_pagos_tarifas_moda_amv" title="story">
+         <media:content/>
+      </link>
+      <link rel="related" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/02/160204_modelo_trans_monje_am" title="story">
+         <dc:title>De monje budista a supermodelo: la espectacular transformación de Mimi Tao</dc:title>
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcmundo.com,2016-05-31:/mundo/noticias/2016/05/160531_economia_felicidad_trabajo_mexicanos_lf</id>
+      <dc:identifier>/mundo/noticias/2016/05/160531_economia_felicidad_trabajo_mexicanos_lf</dc:identifier>
+      <updated>2016-05-31T20:22:23+00:00</updated>
+      <published>2016-05-31T19:00:27+00:00</published>
+      <category xml:lang="es" term="mundo" label="mundo"/>
+      <category xml:lang="es" term="news" label="Noticias"/>
+      <title xml:lang="es">Por qué los mexicanos están más contentos con su trabajo que los estadounidenses</title>
+      <summary xml:lang="es">Un estudio internacional para el que se encuestó a trabajadores de 15 países concluyó que la satisfacción laboral de los mexicanos supera a la de los estadounidenses, mientras que la de los chilenos la iguala. </summary>
+      <link rel="alternate" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/05/160531_economia_felicidad_trabajo_mexicanos_lf" title="story">
+         <media:content/>
+      </link>
+      <link rel="related" type="text/html" href="http://www.bbc.com/mundo/noticias/2015/11/151102_reducir_jornadas_laborales_seis_horas_suecia_slim_jm" title="story">
+         <dc:title>Trabajar sólo 6 horas al día: ¿es este el secreto de la felicidad y la productividad?</dc:title>
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcmundo.com,2016-05-30:/mundo/noticias/2016/05/160530_economia_consumo_cerveza_venezuela_lf</id>
+      <dc:identifier>/mundo/noticias/2016/05/160530_economia_consumo_cerveza_venezuela_lf</dc:identifier>
+      <updated>2016-05-31T11:32:41+00:00</updated>
+      <published>2016-05-30T19:15:19+00:00</published>
+      <category xml:lang="es" term="mundo" label="mundo"/>
+      <category xml:lang="es" term="news" label="Noticias"/>
+      <title xml:lang="es">¿De dónde viene la cerveza que consumen los venezolanos ahora que falta Polar?</title>
+      <summary xml:lang="es">Las existencias de la firma Polar, que controla cerca de 80% del mercado y detuvo la producción alegando falta de materia prima, se están agotando. Y hay pocas alternativas a corto plazo para reemplazarlas.</summary>
+      <link rel="alternate" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/05/160530_economia_consumo_cerveza_venezuela_lf" title="story">
+         <media:content/>
+      </link>
+      <link rel="related" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/04/160428_venezuela_calidad_de_vida_dp" title="story">
+         <dc:title>5 estampas de cómo se ha deteriorado la vida en Venezuela</dc:title>
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcmundo.com,2016-05-29:/mundo/noticias/2016/05/160529_venezuela_maracibo_gasolina_escasez_dp</id>
+      <dc:identifier>/mundo/noticias/2016/05/160529_venezuela_maracibo_gasolina_escasez_dp</dc:identifier>
+      <updated>2016-05-30T16:24:14+00:00</updated>
+      <published>2016-05-29T18:41:37+00:00</published>
+      <category xml:lang="es" term="mundo" label="mundo"/>
+      <category xml:lang="es" term="news" label="Noticias"/>
+      <title xml:lang="es">La difícil tarea de encontrar gasolina en Maracaibo, la capital petrolera de Venezuela </title>
+      <summary xml:lang="es">En la ciudad que antes era sinónimo de desarrollo por ser el epicentro de la producción petrolera venezolana han vuelto a generarse interminables filas para echar gasolina. BBC Mundo estuvo ahí. </summary>
+      <link rel="alternate" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/05/160529_venezuela_maracibo_gasolina_escasez_dp" title="story">
+         <media:content/>
+      </link>
+      <link rel="related" type="text/html" href="http://www.bbc.com/mundo/video_fotos/2016/05/160530_video_venezuela_maracaibo_gasolina_am" title="video">
+         <dc:title>Las colas para echar gasolina se toman Maracaibo, la ciudad petrolera de Venezuela</dc:title>
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcmundo.com,2016-05-30:/mundo/noticias/2016/05/160530_tecnologia_batalla_legal_silicon_valley_peter_thiel_paypal_facebook_hulk_hogan_terry_bolea_gawker_lb</id>
+      <dc:identifier>/mundo/noticias/2016/05/160530_tecnologia_batalla_legal_silicon_valley_peter_thiel_paypal_facebook_hulk_hogan_terry_bolea_gawker_lb</dc:identifier>
+      <updated>2016-05-30T14:47:25+00:00</updated>
+      <published>2016-05-30T09:33:34+00:00</published>
+      <category xml:lang="es" term="mundo" label="mundo"/>
+      <category xml:lang="es" term="news" label="Noticias"/>
+      <title xml:lang="es">Por qué el multimillonario Peter Thiel, cofundador de Paypal, quiere destruir el portal de celebridades Gawker</title>
+      <summary xml:lang="es">La batalla legal entre Hulk Hogan y Gawker originó un debate sobre la libertad de prensa en la era digital y el poder de Silicon Valley desde que se supo que el cofundador de PayPal apoyó al exluchador con US$10 millones. </summary>
+      <link rel="alternate" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/05/160530_tecnologia_batalla_legal_silicon_valley_peter_thiel_paypal_facebook_hulk_hogan_terry_bolea_gawker_lb" title="story">
+         <media:content/>
+      </link>
+      <link rel="related" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/03/160318_hulk_hogan_gana_juicio_millonario_ps" title="story">
+         <dc:title>Hulk Hogan recibirá US$115 millones de portal de celebridades Gawker por divulgación de video sexual</dc:title>
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcmundo.com,2016-05-30:/mundo/noticias/2016/05/160530_china_disney_parque_diversiones_wanda_mr</id>
+      <dc:identifier>/mundo/noticias/2016/05/160530_china_disney_parque_diversiones_wanda_mr</dc:identifier>
+      <updated>2016-05-30T11:55:47+00:00</updated>
+      <published>2016-05-30T10:20:21+00:00</published>
+      <category xml:lang="es" term="mundo" label="mundo"/>
+      <category xml:lang="es" term="news" label="Noticias"/>
+      <title xml:lang="es">Wanda City: el parque de atracciones con el que China quiere competir con Disney</title>
+      <summary xml:lang="es">El hombre más rico de China cree que ya pasó el tiempo en que Disney dominaba el entretenimiento en el país asiático y en el mundo. Su parque temático es una apuesta de más de US$3.000 millones por la cultura china.</summary>
+      <link rel="alternate" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/05/160530_china_disney_parque_diversiones_wanda_mr" title="story">
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcmundo.com,2016-05-29:/mundo/noticias/2016/05/160529_tecnologia_refrigeracion_negocio_neveras_calentamiento_global_amv</id>
+      <dc:identifier>/mundo/noticias/2016/05/160529_tecnologia_refrigeracion_negocio_neveras_calentamiento_global_amv</dc:identifier>
+      <updated>2016-05-30T10:33:45+00:00</updated>
+      <published>2016-05-29T15:17:32+00:00</published>
+      <category xml:lang="es" term="mundo" label="mundo"/>
+      <category xml:lang="es" term="news" label="Noticias"/>
+      <title xml:lang="es">Neveras que funcionan dos semanas sin electricidad y otros avances de las tecnologías del enfriamiento</title>
+      <summary xml:lang="es">El calentamiento global y el crecimiento económico han hecho que la demanda de frío vaya en aumento, por lo que varios científicos están trabajando para desarrollar nuevas tecnologías que sean limpias y, a la vez, eficientes.</summary>
+      <link rel="alternate" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/05/160529_tecnologia_refrigeracion_negocio_neveras_calentamiento_global_amv" title="story">
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcmundo.com,2016-05-27:/mundo/noticias/2016/05/160527_pollo_historia_industria_finde_dv</id>
+      <dc:identifier>/mundo/noticias/2016/05/160527_pollo_historia_industria_finde_dv</dc:identifier>
+      <updated>2016-05-29T11:03:12+00:00</updated>
+      <published>2016-05-27T16:38:34+00:00</published>
+      <category xml:lang="es" term="mundo" label="mundo"/>
+      <category xml:lang="es" term="news" label="Noticias"/>
+      <title xml:lang="es">El periplo del pollo: salió de la selva peleando y fue despreciado por doquier hasta que conquistó el mundo</title>
+      <summary xml:lang="es">En la historia de cómo el pollo llegó a ser un negocio millonario, desde Julio Cesar y la reina Victoria hasta los esclavos de EE.UU. tuvieron su rol, así como un concurso que cambió su cuerpo para hacerlo más apetitoso.</summary>
+      <link rel="alternate" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/05/160527_pollo_historia_industria_finde_dv" title="story">
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcmundo.com,2016-05-26:/mundo/noticias/2016/05/160526_finde_manteca_karite_trabajo_mujeres_db</id>
+      <dc:identifier>/mundo/noticias/2016/05/160526_finde_manteca_karite_trabajo_mujeres_db</dc:identifier>
+      <updated>2016-05-28T11:52:41+00:00</updated>
+      <published>2016-05-26T01:08:12+00:00</published>
+      <category xml:lang="es" term="mundo" label="mundo"/>
+      <category xml:lang="es" term="news" label="Noticias"/>
+      <title xml:lang="es">El precio que pagan unas mujeres para que otras tengan la piel suave </title>
+      <summary xml:lang="es">Largas jornadas de trabajo para mujeres que producen manteca de karité se traducen en un par de dólares de ganancia, en una industria de millones de dólares.</summary>
+      <link rel="alternate" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/05/160526_finde_manteca_karite_trabajo_mujeres_db" title="story">
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcmundo.com,2016-05-27:/mundo/noticias/2016/05/160527_economia_abundancia_queso_putin_estados_unidos_lf</id>
+      <dc:identifier>/mundo/noticias/2016/05/160527_economia_abundancia_queso_putin_estados_unidos_lf</dc:identifier>
+      <updated>2016-05-27T18:53:18+00:00</updated>
+      <published>2016-05-27T16:41:07+00:00</published>
+      <category xml:lang="es" term="mundo" label="mundo"/>
+      <category xml:lang="es" term="news" label="Noticias"/>
+      <title xml:lang="es">¿Qué tiene que ver Vladimir Putin con las montañas de queso que se acumulan en Estados Unidos?</title>
+      <summary xml:lang="es">La geopolítica nos afecta de maneras inesperadas. Un conflicto en Europa contribuyó a un fenómeno de mercado que inundó a Estados Unidos de queso barato y ahora nadie sabe qué hacer con él.</summary>
+      <link rel="alternate" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/05/160527_economia_abundancia_queso_putin_estados_unidos_lf" title="story">
+         <media:content/>
+      </link>
+      <link rel="related" type="text/html" href="http://www.bbc.com/mundo/noticias/2016/05/160505_economia_intercambio_rusia_america_latina_lf" title="story">
+         <dc:title>Desde armas a vino, cómo Rusia ha irrumpido en la economía de América Latina</dc:title>
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:www.bbcmundo.com,2016-05-27:/mundo/deportes/2016/05/160527_deportes_champions_league_real_atletico_madrid_championship_dinero_hull_sheffield_wednesday_jmp</id>
+      <dc:identifier>/mundo/deportes/2016/05/160527_deportes_champions_league_real_atletico_madrid_championship_dinero_hull_sheffield_wednesday_jmp</dc:identifier>
+      <updated>2016-05-27T14:45:01+00:00</updated>
+      <published>2016-05-27T10:01:50+00:00</published>
+      <category xml:lang="es" term="mundo" label="mundo"/>
+      <category xml:lang="es" term="sport" label="Deportes"/>
+      <title xml:lang="es">El partido de segunda división que vale más que la final de la Champions League</title>
+      <summary xml:lang="es">En el esperado duelo entre Real Madrid y Atlético de Madrid está en juego el famoso trofeo de la "Orejona", pero el mismo sábado también se disputará un partido con un botín tal vez más apetecible: US$250 millones</summary>
+      <link rel="alternate" type="text/html" href="http://www.bbc.com/mundo/deportes/2016/05/160527_deportes_champions_league_real_atletico_madrid_championship_dinero_hull_sheffield_wednesday_jmp" title="story">
+         <media:content/>
+      </link>
+   </entry>
+</feed>
