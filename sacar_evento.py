@@ -13,12 +13,14 @@ import re
 -Egob: /index.php/es/me-noticias-y-eventos/me-eventos/month_calendar/2016/08/-
 -Cider: /Paginas/Eventos.aspx
 """
+link='/Paginas/Eventos.aspx'
+if link[-1]=="-": new_link=link[:-1]
+else: new_link=link+"/"
 
-link='/es/facultad/eventos/'
-r=requests.get('https://derecho.uniandes.edu.co'+link)
+r=requests.get('https://ingenieria.uniandes.edu.co'+link)
 soup=BeautifulSoup(r.content, "lxml")
 
-m=re.search('(.*?)(evento|Evento)(.*?)/', link)
+m=re.search('(.*?)(evento|Evento)(.*?)/', new_link)
 cuerpo=soup.body
 if len(cuerpo.find_all("a", href=re.compile(m.group(0)+'.*?(icalrepeat|item.listevents|detalle|Detalle)')))>0:
 	anclas=cuerpo.find_all("a", href=re.compile(m.group(0)+'.*?(icalrepeat|item.listevents|detalle|Detalle)'))

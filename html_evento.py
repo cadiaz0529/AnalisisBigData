@@ -24,9 +24,11 @@ for facultad in departamentos:
 			print(url+ancla['href'])
 			break
 		else:
-			posibles=ancla.find_all(string=re.compile('(Eventos|eventos|Ver)'))
+			posibles=ancla.find_all(string=re.compile('(Eventos|eventos|Ver|ver|noticia|Noticia)'))
 			if len(posibles)>0:
 				print(url+ancla['href'])
 				break
+
+
 
 

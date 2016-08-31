@@ -14,9 +14,9 @@ import re
 -Cider: http://cider.uniandes.edu.co/Paginas/DetalleEventos.aspx?eid=16
 """
 
-r=requests.get('https://egob.uniandes.edu.co/index.php/es/me-noticias-y-eventos/me-eventos/eventodetalle/148/-/inicio-de-clases')
+r=requests.get('https://administracion.uniandes.edu.co/index.php/es/facultad/sobre-la-facultad/eventos/icalrepeat.detail/2016/08/30/110/-/la-importancia-de-hacer-networking')
 soup=BeautifulSoup(r.content, "lxml")
-lista=soup.body.find_all(string=re.compile('Inicio de clases'))
+lista=soup.body.find_all(string=re.compile('La importancia de hacer networking'))
 finish=False
 max_depth=0
 texto=""

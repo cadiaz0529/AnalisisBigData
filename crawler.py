@@ -3,8 +3,8 @@ import requests
 import re
 
 class Evento(object):
-	def __init__(self, nombre):
-		self.nombre=nombre
+	def __init__(self, url):
+		self.nombre=""
 		self.fecha=""
 		self.hora=""
 		self.lugar=""
@@ -13,32 +13,10 @@ class Evento(object):
 		self.mas_info=""
 		self.resumen=""
 		self.keywords=""
+		self.url=url
 
-	def extraer_info(self, link):
-		r=requests.get('https://administracion.uniandes.edu.co'+link)
-		soup=BeautifulSoup(r.content, "lxml")
-		lista=soup.body.find_all(string=re.compile(self.nombre))
-		finish=False
-		max_depth=0
-		texto=""
-		for ev in lista:
-			tag=ev
-			success=False
-			i=0
-			while not success:
-				padre=tag.parent
-				if len(padre.find_all(string=re.compile('(fecha|Fecha|agosto|Agosto)')))>0:
-					success=True
-					if len(ev.find_parents())>=max_depth:
-						texto=padre.text
-						max_depth=len(ev.find_parents())
-					break
-				else:
-					tag=padre
-				i=i+1
-
-		return texto
-
+		def get_info(self):
+			return True
 
 
 class Unidad(object):
@@ -46,68 +24,99 @@ class Unidad(object):
 		self.url=url
 		self.nombre=nombre
 
-	def link_eventos(self):
-		try:
-			r=requests.get(self.url)
-		except:
-			print("No pudo abrir: "+self.nombre)
-			return ""
-
+	def html_content(self, link):
+		r=requests.get(link)
 		soup=BeautifulSoup(r.content, "lxml")
+		return soup
 
-		anclas=soup.body.find_all("a", href=re.compile('(evento|Evento)'))
+	def get_calendarios(self):
+		ans=[]
+		html=self.html_content(self.url)
+		candidatos=html.find_all("a", href=re.compile('month.calendar'))
+		for candidate in candidatos:
+			if re.search("([E|e]ventos?|agenda)", candidate['href']) is not None:
+				ans.append(candidate['href'])
+		return ans
 
-		if len(anclas)==0:
-			anclas=soup.body.find_all("a", href=re.compile('(events|news|noticia|Noticia|agenda|Agenda)'))
 
-		for ancla in anclas:
-			if ancla['href'].find("cat.listevents")!=-1 or ancla['href'].find("calendar")!=-1: 
-				return ancla['href']
-			else:
-				posibles=ancla.find_all(string=re.compile('(Eventos|eventos|Ver|ver|noticia|Noticia)'))
-				if len(posibles)>0:
-					return ancla['href']
+	def get_tablas(self):
+		ans=[]
+		html=self.html_content(self.url)
+		candidatos=html.find_all("a", href=re.compile('(cat.listevents|icagenda)'))
+		for candidate in candidatos:
+			if re.search("([E|e]ventos?|agenda)", candidate['href']) is not None:
+				ans.append(candidate['href'])
+		return ans
 
-	def lista_eventos(self, link):
-		if link[-1]=="-": new_link=link[:-1]
-		else: new_link=link+"/"
+	def get_simples(self):
+		ans=[]
+		html=self.html_content(self.url)
+		candidatos=html.find_all("a", href=re.compile('[E|e]ventos?'))
+		for candidate in candidatos:
+			ans.append(candidate['href'])
+		return ans
 
-		eventos=list()
 
-		r=requests.get(self.url+link)
-		soup=BeautifulSoup(r.content, "lxml")
-		cuerpo=soup.body
+	def get_link_noticias(self):
+		ans=[]
+		html=self.html_content(self.url)
+		candidatos=html.find_all("a", href=re.compile('([N|n]oticias|[N|n]ews)'))
+		for candidate in candidatos:
+			ans.append(candidate['href'])
+		print(ans)
 
-		m=re.search('(.*?)(evento|Evento)(.*?)/', new_link)
-		
-		if len(cuerpo.find_all("a", href=re.compile(m.group(0)+'.*?(icalrepeat|item.listevents|detalle|Detalle)')))>0:
-			anclas=cuerpo.find_all("a", href=re.compile(m.group(0)+'.*?(icalrepeat|item.listevents|detalle|Detalle)'))
-		elif len(cuerpo.find_all("a", href=re.compile('(events|news|noticia|Noticia|agenda|Agenda).*?(icalrepeat|item.listevents|detalle|Detalle)')))>0:
-			anclas=cuerpo.find_all("a", href=re.compile('(events|news|noticia|Noticia|agenda|Agenda).*?(icalrepeat|item.listevents|detalle|Detalle)'))
-		else:
-			anclas=cuerpo.find_all("a", href=re.compile(m.group(1)+'.*?(evento|Evento)'))
-			
+	def get_link_eventos(self):
+		simples=self.get_simples()
+		calendars=self.get_calendarios()
+		tables=self.get_tablas()
+		print(simples)
+		print(calendars)
+		print(tables)
+		if len(simples)==0 and len(calendars)==0 and len(tables)==0:
+			self.get_link_noticias()
 
-		for ancla in anclas:
-			if ancla['href']!=link:
-				eventos.append(ancla)
 
-		return eventos
+	def lista_anual(self):
+		return True
 
+	def get_slides(self):
+		return True
+
+	def get_lista_eventos(self):
+		return True
+
+	def in_uniandes(self):
+		return True
+
+	def relative_link(self):
+		return True
+
+	def pass_heuristics(self):
+		return True
 
 
 class Crawler(object):
 	def __init__(self):
 		self.name="Crawlie"
 
-	def extraer_eventos(self, unidad):
-		url='http://'+unidad+'.uniandes.edu.co'
-		unit=Unidad(url, unidad)
-		link=unit.link_eventos()
-		eventos=unit.lista_eventos(link)
-		evento=Evento(eventos[0].text)
-		print(evento.extraer_info(eventos[0]['href']))
+	def get_unidades(self):
+		return True
+
+	def extraer_eventos(self, name):
+		url='http://'+name+'.uniandes.edu.co'
+		unidad=Unidad(url, name)
+		unidad.get_link_eventos()
 
 
 crawlie=Crawler()
-crawlie.extraer_eventos('administracion')
+facultades=['administracion', 'arqdis', 'facartes', 'ciencias', 'derecho', 'economia', 'cife', 'ingenieria', 'medicina', 'egob', 'cider']
+departamentos=['ceper', 'antropologia', 'arquitectura', 'arte', 'c-politica', 'cienciasbiologicas', 'design', 'filosofia', 'fisica', 'geociencias', 'historia', 'literatura', 'ingbiomedica', 'civil', 'electrica', 'industrial', 'mecanica', 'ingquimica', 'sistemas', 'lenguas', 'matematicas', 'musica', 'psicologia', 'quimicapr']
+
+for facultad in facultades:
+	print(facultad.upper()+"\n\n")
+	try:
+		crawlie.extraer_eventos(facultad)
+		print("\n\n")
+	except:
+		print("No se pudo para: "+facultad)
+		continue
