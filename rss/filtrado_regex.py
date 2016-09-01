@@ -98,75 +98,43 @@ class Feed(object):
 		self.noticias=extraer_noticias(xml)
 
 	def busqueda(self, palabra, tipoBusqueda):
+		titulos=[]
 		#print(len(listaEntradas[0]))
-		for entrada in self.noticias:
-			if tipoBusqueda=="titulo":		
-			# expresion regular que busca los titulos dentro de las entradas previamente filtradas		
+		
+		if tipoBusqueda=="titulo":
+			for entrada in self.noticias:		
+		# expresion regular que busca los titulos dentro de las entradas previamente filtradas		
 				if entrada.busquedaTitulo(palabra):
-					print(entrada.titulo)
-					print("------------------")
+					titulos.append(entrada.titulo)
 				else:
-					print("No encontrado")
-					print("------------------")
-					
-			elif tipoBusqueda=="descripcion":
+					continue
+		elif tipoBusqueda=="descripcion":
+			for entrada in self.noticias:		
+		# expresion regular que busca los titulos dentro de las entradas previamente filtradas		
 				if entrada.busquedaDescripcion(palabra):
-					print(entrada.titulo)
-					print("------------------")
+					titulos.append(entrada.titulo)
 				else:
-					print("No encontrado")
-					print("------------------")
-			
-			elif tipoBusqueda=="categoria":
-				if entrada.busquedaCategoria(palabra):
-					print(entrada.titulo)
-					print("------------------")
-				else:
-					print("No encontrado")
-					print("------------------")
+					continue
 
-	
+		elif tipoBusqueda=="categoria":
+			for entrada in self.noticias:		
+		# expresion regular que busca los titulos dentro de las entradas previamente filtradas		
+				if entrada.busquedaCategoria(palabra):
+					titulos.append(entrada.titulo)
+				else:
+					continue
+
+		return titulos			
 
 			
 #para iterar sobre las fuentes
 
-def main():
-	palabra=input("Qué desea consultar?\n")
-	tipoBusqueda=input("Tipo de consulta:\n")
+def main(palabra, tipoBusqueda):
+	titulos=[]
 	for fuente in fuentes:
 		feed=Feed(fuente)
-		feed.busqueda(palabra, tipoBusqueda)
-
-main()
-
-
-	
+		titulos+=feed.busqueda(palabra, tipoBusqueda)
+	return titulos
 
 
-
-
-
-
-
-
-
-
-	#print(titulo)
-	
-#	for tit in titulo:
-#			print(tit)
-#	for des in descripcion:
-#			print(des)
-#	for cat in categoria:
-			#print(cat)
-
-#arreglo de titulos
-			#titulos.append(tit)
-#print(titulos)
-
-
-
-#patronTitulo = re.compile('<title(.*'+palabra+'.*?)</title>', re.IGNORECASE)
-#patronDescripcion = re.compile('<description.*?>.*?)</description>|<summary.*?>(.*?)</summary>',  re.IGNORECASE)
-#patronCategoria = re.compile('<category.*?>(.*'+palabra+'.*?)/>', re.IGNORECASE)
 
