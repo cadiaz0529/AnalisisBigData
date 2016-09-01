@@ -1,3 +1,0 @@
-for $prod in doc("catalog.xml")/catalog/product[@dept="ACC"]
-order by $prod/name 
-return $prod/name
